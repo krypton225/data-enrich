@@ -2,7 +2,7 @@ import { FaFacebookF, FaAccusoft, FaStudiovinari } from "react-icons/fa";
 import { DiDatabase } from "react-icons/di";
 import { BsGoogle, BsTwitter } from "react-icons/bs";
 
-import { FormText, LandingCompanies } from "../components/home/index";
+import { FormLanding, FormText, LandingCompanies } from "../components/home/index";
 
 const Home = () => {
     return (
@@ -49,15 +49,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <form className="mt-6 grid grid-cols-1 gap-y-4">
-                        <input type="text" name="name" id="name" placeholder="name" className="py-1 px-2 border-[1px] border-[#bbb] rounded-md placeholder:capitalize" />
-
-                        <input type="email" name="email" id="email" placeholder="email" className="py-1 px-2 border-[1px] border-[#bbb] rounded-md placeholder:capitalize" />
-
-                        <input type="password" name="password" id="password" placeholder="password" className="py-1 px-2 border-[1px] border-[#bbb] rounded-md placeholder:capitalize" />
-
-                        <input type="submit" value="Create an account" className="py-1 px-2 rounded-md bg-secondary text-white transition-all duration-300 cursor-pointer hover:brightness-75" />
-                    </form>
+                    <FormLanding />
 
                     <FormText />
                 </div>
