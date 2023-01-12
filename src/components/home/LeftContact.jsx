@@ -1,4 +1,4 @@
-import { BsFillTelephoneFill, BsEnvelopeFill } from "react-icons/bs";
+import LeftContactInfo from "../../data/left-contact-info";
 
 const LeftContact = () => {
     return (
@@ -14,15 +14,13 @@ const LeftContact = () => {
             </div>
 
             <div className="w-full lg:w-[35%] mt-6">
-                <div className="w-full flex items-center mb-5">
-                    <BsFillTelephoneFill size={16} />
-                    <p className="ml-2">+1 (555) 123-4567</p>
-                </div>
-
-                <div className="w-full flex items-center">
-                    <BsEnvelopeFill size={16} />
-                    <p className="ml-2">support@example.com</p>
-                </div>
+                {
+                    LeftContactInfo.map(({ id, icon, infoText }) => (<div key={id} className="w-full flex items-center mb-5">
+                        {icon}
+                        <p className="ml-2">{infoText}</p>
+                    </div>
+                    ))
+                }
             </div>
 
             <p className="mt-4">
