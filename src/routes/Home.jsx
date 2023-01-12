@@ -1,4 +1,11 @@
-import { FormLanding, FormText, LandingCompanies, SignInSocial, SingleInfo } from "../components/home/index";
+import {
+    FormLanding,
+    FormText,
+    LandingCompanies,
+    LeftPartSection,
+    SignInSocial,
+    SingleInfo
+} from "../components/home/index";
 
 const Home = () => {
     return (
@@ -41,14 +48,8 @@ const Home = () => {
 
                     <div className="divider"></div>
 
-                    <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-6 mx-auto text-center text-primary">
-                        <div className="w-full">
-                            <p className="text-secondary text-sm font-semibold uppercase">everything you need</p>
-                            <p className="my-2 text-2xl font-semibold">All-in-one platform</p>
-                            <p className="text-[#444] text-xs">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aliquam iure tempore quam enim delectus natus assumenda.
-                            </p>
-                        </div>
+                    <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-6 mx-auto lg:mx-0 text-center lg:text-left text-primary">
+                        <LeftPartSection />
 
                         <SingleInfo />
 
