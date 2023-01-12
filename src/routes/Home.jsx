@@ -58,6 +58,43 @@ const Home = () => {
                     </div>
 
                     <IntroImage />
+
+                    <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-6 justify-start text-primary">
+                        <div className="w-full lg:w-[75%]">
+                            <p className="text-2xl text-secondary font-semibold capitalize">frequently asked <br /> questions</p>
+                            <p className="w-full my-4 text-[#444]">Can't find the answer you're looking for? Reach out to our <span>customer support</span> team.</p>
+                        </div>
+
+                        <div className="w-full grid grid-cols-1 gap-y-6">
+                            <div className="w-full">
+                                <p className="font-semibold text-lg">How do you make holy water?</p>
+                                <p className="mt-2 text-sm">
+                                    You biol the hell out of it. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+
+                            <div className="w-full">
+                                <p className="font-semibold text-lg">How do you make holy water?</p>
+                                <p className="mt-2 text-sm">
+                                    You biol the hell out of it. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+
+                            <div className="w-full">
+                                <p className="font-semibold text-lg">How do you make holy water?</p>
+                                <p className="mt-2 text-sm">
+                                    You biol the hell out of it. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+
+                            <div className="w-full">
+                                <p className="font-semibold text-lg">How do you make holy water?</p>
+                                <p className="mt-2 text-sm">
+                                    You biol the hell out of it. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
