@@ -6,7 +6,7 @@ import MainRoutes from "./data/routes";
 
 function App() {
   return (
-    <div className="bg-primary">
+    <div className="bg-primary selection:bg-secondary selection:text-white">
       <BrowserRouter>
         <Navbar />
 

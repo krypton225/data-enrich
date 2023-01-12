@@ -10,6 +10,8 @@ import {
     SingleInfo
 } from "../components/home/index";
 
+import { BsFillTelephoneFill, BsEnvelopeFill } from "react-icons/bs";
+
 const Home = () => {
     return (
         <section className="text-white">
@@ -66,9 +68,70 @@ const Home = () => {
 
                         <RightSectionFQA />
                     </div>
+
+                    <div className="mt-24 grid grid-cols-1 lg:grid-cols-2 gap-7 items-start">
+                        <div className="w-full text-primary">
+                            <h5 className="text-2xl capitalize font-semibold">get in touch</h5>
+
+                            <p className="my-4 text-[#555]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, eius. Vero, est.</p>
+
+                            <div className="capitalize">
+                                <p>742 evergreen terrance</p>
+
+                                <p>springfield, OR 12345</p>
+                            </div>
+
+                            <div className="w-[35%] mt-6">
+                                <div className="w-full flex items-center mb-5">
+                                    <BsFillTelephoneFill size={16} />
+                                    <p className="ml-2">+1 (555) 123-4567</p>
+                                </div>
+
+                                <div className="w-full flex items-center">
+                                    <BsEnvelopeFill size={16} />
+                                    <p className="ml-2">support@example.com</p>
+                                </div>
+                            </div>
+
+                            <p className="mt-4">
+                                Looking for careers?&nbsp;
+                                <span className="text-secondary">
+                                    <a href="/">View all jop openings</a>
+                                </span>
+                            </p>
+                        </div>
+
+                        <form className="w-full grid grid-cols-1 gap-y-5 text-primary">
+                            <input type="text" name="touch-name" id="touch-name" placeholder="full name"
+                                className="py-1 px-2 border-[1px] border-[#bbb] rounded-md placeholder:capitalize focus:outline-none" autoComplete="new-password" />
+
+                            <input type="email" name="touch-email" id="touch-email" placeholder="your email"
+                                className="py-1 px-2 border-[1px] border-[#bbb] rounded-md placeholder:capitalize focus:outline-none" autoComplete="new-password" />
+
+                            <input type="tel" name="touch-phone" id="touch-phone" placeholder="your phone"
+                                className="py-1 px-2 border-[1px] border-[#bbb] rounded-md placeholder:capitalize focus:outline-none" autoComplete="new-password" />
+
+                            <textarea name="message" id="message" placeholder="message"
+                                className="w-full min-h-[10rem] max-h-[15rem] resize-y py-1 px-2 border-[1px] border-[#bbb] rounded-md placeholder:capitalize focus:outline-none">
+                            </textarea>
+
+                            <div className="form-check">
+                                <input className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-secondary checked:border-secondary focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="checkbox-form" />
+
+                                <label className="form-check-label inline-block text-gray-800" htmlFor="checkbox-form">
+                                    By checking this box, you agree to the&nbsp;
+                                    <a href="/" className="text-secondary">Privacy Policy</a>&nbsp;
+                                    and <a href="/" className="text-secondary">Cookie Policy</a>
+                                </label>
+                            </div>
+
+                            <input type="submit" value="Submit"
+                                className="py-1 px-2 rounded-md bg-secondary text-white transition-all duration-300 cursor-pointer hover:brightness-75" />
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </div >
+        </section >
     );
 };
 
