@@ -1,3 +1,5 @@
+import FooterLinks from "./FooterLinks";
+
 import FirstFooterLinks from "../data/first-footer-links";
 import SecondFooterLinks from "../data/second-footer-links";
 import ThirdFooterLinks from "../data/third-footer-links";
@@ -11,57 +13,25 @@ const Footer = () => {
                     <div className="capitalize text-start">
                         <p className="mb-2 text-[#777]">solutions</p>
 
-                        <ul className="w-full flex flex-col text-start text-sm">
-                            {
-                                FirstFooterLinks.map(({ id, linkText, linkPath }) => (
-                                    <li key={id} className="mb-2">
-                                        <a href={linkPath} className="block py-1">{linkText}</a>
-                                    </li>
-                                ))
-                            }
-                        </ul>
+                        <FooterLinks listName={FirstFooterLinks} />
                     </div>
 
                     <div className="capitalize text-start">
                         <p className="mb-2 text-[#777]">support</p>
 
-                        <ul className="w-full flex flex-col text-start text-sm">
-                            {
-                                SecondFooterLinks.map(({ id, linkText, linkPath }) => (
-                                    <li key={id} className="mb-2">
-                                        <a href={linkPath} className="block py-1">{linkText}</a>
-                                    </li>
-                                ))
-                            }
-                        </ul>
+                        <FooterLinks listName={SecondFooterLinks} />
                     </div>
 
                     <div className="capitalize text-start">
                         <p className="mb-2 text-[#777]">company</p>
 
-                        <ul className="w-full flex flex-col text-start text-sm">
-                            {
-                                ThirdFooterLinks.map(({ id, linkText, linkPath }) => (
-                                    <li key={id} className="mb-2">
-                                        <a href={linkPath} className="block py-1">{linkText}</a>
-                                    </li>
-                                ))
-                            }
-                        </ul>
+                        <FooterLinks listName={ThirdFooterLinks} />
                     </div>
 
                     <div className="capitalize text-start">
                         <p className="mb-2 text-[#777]">legal</p>
 
-                        <ul className="w-full flex flex-col text-start text-sm">
-                            {
-                                FourthFooterLinks.map(({ id, linkText, linkPath }) => (
-                                    <li key={id} className="mb-2">
-                                        <a href={linkPath} className="block py-1">{linkText}</a>
-                                    </li>
-                                ))
-                            }
-                        </ul>
+                        <FooterLinks listName={FourthFooterLinks} />
                     </div>
                 </div>
 
