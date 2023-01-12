@@ -10,7 +10,7 @@ const FooterRightSection = () => {
                     className="w-[95%] sm:w-[60%] py-1 mb-3 sm:mb-0 px-2 border-[1px] border-[#bbb] rounded-md text-primary placeholder:capitalize focus:outline-none" />
 
                 <input type="submit" value="Subscribe" name="news-submit" id="news-submit"
-                    className="w-[95%] sm:w-[35%] py-1 mb-3 sm:mb-0 px-2 rounded-md bg-secondary text-white transition-all duration-300 cursor-pointer hover:brightness-75" />
+                    className="w-[95%] sm:w-[35%] mb-3 sm:mb-0 form-submit" />
             </div>
         </div>
     )

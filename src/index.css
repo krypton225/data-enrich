@@ -6,6 +6,14 @@
   .cauterize {
     @apply flex justify-center items-center;
   }
+
+  .form-contact {
+    @apply py-1 px-2 border-[1px] border-[#bbb] rounded-md placeholder:capitalize focus:outline-none;
+  }
+
+  .form-submit {
+    @apply py-1 px-2 rounded-md bg-secondary text-white transition-all duration-300 cursor-pointer hover:brightness-75;
+  }
 }
 
 html,
