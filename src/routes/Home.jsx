@@ -1,6 +1,7 @@
 import {
     FormLanding,
     FormText,
+    IntroImage,
     LandingCompanies,
     LeftPartSection,
     SignInSocial,
@@ -55,6 +56,8 @@ const Home = () => {
 
                         <SingleInfo />
                     </div>
+
+                    <IntroImage />
                 </div>
             </div>
         </section>

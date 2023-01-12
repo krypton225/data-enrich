@@ -9,3 +9,5 @@ export { default as SignInSocial } from "./SignInSocial";
 export { default as SingleInfo } from "./SingleInfo";
 
 export { default as LeftPartSection } from "./LeftPartSection";
+
+export { default as IntroImage } from "./IntroImage";
