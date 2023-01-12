@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import NavbarItems from "../data/navbarItems";
 
 const ListItems = ({ mdScreen = false, closeMenuInMdScreen }) => {
@@ -7,13 +8,13 @@ const ListItems = ({ mdScreen = false, closeMenuInMdScreen }) => {
                 mdScreen ?
                     NavbarItems.map(({ id, itemText, itemRoute }) => (
                         <li key={id} className="my-6" onClick={closeMenuInMdScreen}>
-                            <a href={itemRoute} className="inline-block py-3">{itemText}</a>
+                            <Link to={itemRoute} className="inline-block py-3">{itemText}</Link>
                         </li>
                     ))
 
                     : NavbarItems.map(({ id, itemText, itemRoute }) => (
                         <li key={id} className="ml-6">
-                            <a href={itemRoute} className="inline-block py-3">{itemText}</a>
+                            <Link to={itemRoute} className="inline-block py-3">{itemText}</Link>
                         </li>
                     ))
             }
