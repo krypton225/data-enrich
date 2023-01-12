@@ -7,8 +7,8 @@ const SignInSocial = () => {
 
             <div className="w-full mt-4 grid grid-cols-3 space-x-0">
                 {
-                    SocialCompaniesLanding.map(({ id, iconCompany, linkCompany, styles }) => (
-                        <a href={linkCompany} className={styles} key={id}>
+                    SocialCompaniesLanding.map(({ id, iconCompany, linkCompany, companyName, styles }) => (
+                        <a href={linkCompany} className={styles} key={id} rel="noopener noreferrer" aria-label={companyName}>
                             {iconCompany}
                         </a>
                     ))

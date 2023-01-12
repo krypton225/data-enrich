@@ -7,8 +7,8 @@ const LandingCompanies = () => {
 
             <div className="mt-4 flex space-x-4">
                 {
-                    CompaniesLanding.map(({ id, linkCompany, iconCompany }) => (
-                        <a href={linkCompany} key={id}>
+                    CompaniesLanding.map(({ id, linkCompany, iconCompany, companyName }) => (
+                        <a href={linkCompany} key={id} rel="noopener noreferrer" aria-label={companyName}>
                             {iconCompany}
                         </a>
                     ))
