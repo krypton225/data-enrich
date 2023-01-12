@@ -81,7 +81,7 @@ const Home = () => {
                                 <p>springfield, OR 12345</p>
                             </div>
 
-                            <div className="w-[35%] mt-6">
+                            <div className="w-full lg:w-[35%] mt-6">
                                 <div className="w-full flex items-center mb-5">
                                     <BsFillTelephoneFill size={16} />
                                     <p className="ml-2">+1 (555) 123-4567</p>
@@ -115,8 +115,8 @@ const Home = () => {
                                 className="w-full min-h-[10rem] max-h-[15rem] resize-y py-1 px-2 border-[1px] border-[#bbb] rounded-md placeholder:capitalize focus:outline-none">
                             </textarea>
 
-                            <div className="form-check">
-                                <input className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-secondary checked:border-secondary focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="checkbox-form" />
+                            <div className="w-full form-check flex justify-start items-start">
+                                <input className="w-[1.6rem] sm:w-[1rem] h-[1rem] sm:h-[1rem] form-check-input appearance-none border border-gray-300 rounded-sm bg-white checked:bg-secondary checked:border-secondary focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer" type="checkbox" value="" id="checkbox-form" />
 
                                 <label className="form-check-label inline-block text-gray-800" htmlFor="checkbox-form">
                                     By checking this box, you agree to the&nbsp;
