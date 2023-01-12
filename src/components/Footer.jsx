@@ -1,4 +1,4 @@
-import FooterLinks from "./FooterLinks";
+import { FooterLinks, FooterRightSection } from "./index";
 
 import FirstFooterLinks from "../data/first-footer-links";
 import SecondFooterLinks from "../data/second-footer-links";
@@ -35,17 +35,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="w-full">
-                    <p className="mb-3 font-semibold">Subscribe to our newsletter</p>
-
-                    <p className="mb-2 font-semibold">The latest news, articles and resources sent to your inbox weekly</p>
-
-                    <div className="w-full flex justify-between items-center">
-                        <input type="email" name="news-email" id="news-email" placeholder="Enter your email" className="w-full" />
-
-                        <input type="submit" name="news-submit" id="news-submit" value="Subscribe" />
-                    </div>
-                </div>
+                <FooterRightSection />
             </div>
         </footer>
     )
