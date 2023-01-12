@@ -40,13 +40,14 @@ const Home = () => {
 
             <div className="w-full mt-7 bg-white py-24">
                 <div className="container">
-                    <div className="mb-6 flex flex-col lg:flex-row justify-between items-center space-y-8 lg:space-y-0">
-                        <div className="w-full">
-                            <p className="mb-6 text-primary text-4xl font-semibold">Everything you need for <span className="text-secondary">$99 a month</span></p>
+                    <div className="w-full mb-6 flex flex-col lg:flex-row justify-between items-start space-y-8 lg:space-y-0">
+                        <div className="w-full lg:w-[60%] text-center lg:text-start">
+                            <p className="mb-6 text-primary text-3xl font-semibold">Everything you need for&nbsp;
+                                <span className="text-secondary">$99 a month</span></p>
                             <p className="text-[#444]">Includes every feature we offer plus unlimited projects and unlimited users.</p>
                         </div>
 
-                        <div className="w-full mx-auto text-center">
+                        <div className="w-full lg:w-[30%] mx-auto text-center">
                             <button className="rounded-md px-12 py-1 capitalize bg-secondary text-white">get started today</button>
                         </div>
                     </div>
