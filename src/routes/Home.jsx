@@ -2,6 +2,8 @@ import { FaFacebookF, FaAccusoft, FaStudiovinari } from "react-icons/fa";
 import { DiDatabase } from "react-icons/di";
 import { BsGoogle, BsTwitter } from "react-icons/bs";
 
+import { LandingCompanies } from "../components/home/index";
+
 const Home = () => {
     return (
         <section className="text-white">
@@ -16,23 +18,7 @@ const Home = () => {
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus nesciunt laudantium magnam dolorum distinctio tenetur corrupti consequuntur earum nam possimus.
                     </p>
 
-                    <div className="mt-10">
-                        <p className="uppercase text-secondary font-semibold tracking-widest">used by</p>
-
-                        <div className="mt-4 flex space-x-4">
-                            <a href="https://www.facebook.com/">
-                                <DiDatabase size={26} />
-                            </a>
-
-                            <a href="https://www.google.com/">
-                                <FaAccusoft size={26} />
-                            </a>
-
-                            <a href="https://twitter.com/">
-                                <FaStudiovinari size={26} />
-                            </a>
-                        </div>
-                    </div>
+                    <LandingCompanies />
                 </div>
 
                 <div className="w-full md:w-[75%] lg:w-[78%] min-h-[25rem] mx-auto py-8 px-6 rounded-lg bg-white text-primary">
