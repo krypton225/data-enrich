@@ -2,7 +2,7 @@ import { FaFacebookF, FaAccusoft, FaStudiovinari } from "react-icons/fa";
 import { DiDatabase } from "react-icons/di";
 import { BsGoogle, BsTwitter } from "react-icons/bs";
 
-import { LandingCompanies } from "../components/home/index";
+import { FormText, LandingCompanies } from "../components/home/index";
 
 const Home = () => {
     return (
@@ -59,12 +59,7 @@ const Home = () => {
                         <input type="submit" value="Create an account" className="py-1 px-2 rounded-md bg-secondary text-white transition-all duration-300 cursor-pointer hover:brightness-75" />
                     </form>
 
-                    <div className="mt-6 text-xs font-bold text-center">
-                        <p>By signing up, you agree to our
-                            <span className="text-secondary"> Terms, Data Policy</span> and
-                            <span className="text-secondary"> Cookies Policy</span>.
-                        </p>
-                    </div>
+                    <FormText />
                 </div>
             </div>
         </section>
