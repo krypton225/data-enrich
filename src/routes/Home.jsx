@@ -1,4 +1,5 @@
-import FormContact from "../components/home/FormContact";
+import { FormContact } from "../components/home/index";
+
 import {
     FormLanding,
     FormText,

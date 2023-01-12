@@ -16,7 +16,7 @@ const LeftContact = () => {
             <div className="w-full lg:w-[35%] mt-6">
                 {
                     LeftContactInfo.map(({ id, icon, infoText }) => (<div key={id} className="w-full flex items-center mb-5">
-                        {icon}
+                        <span>{icon}</span>
                         <p className="ml-2">{infoText}</p>
                     </div>
                     ))
