@@ -2,9 +2,7 @@ import { useState } from "react";
 
 import NavbarItems from "../data/navbarItems";
 
-import { HamburgerButton } from "./index";
-
-import LogoImage from "../assets/logo.png";
+import { HamburgerButton, MainLogo } from "./index";
 
 const Navbar = () => {
     const [mdScreen, setMdScreen] = useState(false);
@@ -20,11 +18,7 @@ const Navbar = () => {
     return (
         <nav className="w-screen relative py-2 text-white">
             <div className="container relative flex justify-between items-center">
-                <div className="w-[3rem] p-1">
-                    <a href="/">
-                        <img src={LogoImage} alt="Data Enrich Logo" className="w-full object-cover" />
-                    </a>
-                </div>
+                <MainLogo />
 
                 <ul className="hidden md:flex items-center capitalize">
                     {
