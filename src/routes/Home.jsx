@@ -48,7 +48,7 @@ const Home = () => {
 
                     <div className="divider"></div>
 
-                    <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-6 mx-auto lg:mx-0 text-center lg:text-left text-primary">
+                    <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-6 items-start mx-auto lg:mx-0 text-center lg:text-left text-primary">
                         <LeftPartSection />
 
                         <SingleInfo />
