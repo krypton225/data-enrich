@@ -8,4 +8,6 @@ export { default as ListItems } from "./ListItems";
 
 export { default as PricingComponent } from "./PricingComponent";
 
+export { default as FrequentlyAskedComponent } from "./FrequentlyAskedComponent";
+
 export { default as Copyright } from "./Copyright";
