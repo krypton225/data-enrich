@@ -1,9 +1,11 @@
-import { Copyright, FooterLinks, FooterRightSection } from "./index";
+import { Copyright } from "../index";
 
-import FirstFooterLinks from "../data/first-footer-links";
-import SecondFooterLinks from "../data/second-footer-links";
-import ThirdFooterLinks from "../data/third-footer-links";
-import FourthFooterLinks from "../data/fourth-footer-links";
+import { FooterLinks, FooterRightSection } from "./index";
+
+import FirstFooterLinks from "../../data/first-footer-links";
+import SecondFooterLinks from "../../data/second-footer-links";
+import ThirdFooterLinks from "../../data/third-footer-links";
+import FourthFooterLinks from "../../data/fourth-footer-links";
 
 const Footer = () => {
     return (
