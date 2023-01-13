@@ -1,4 +1,4 @@
-import { FrequentlyAskedComponent, PricingComponent } from "../components";
+import { ContactInfoComponent, FrequentlyAskedComponent, PricingComponent } from "../components";
 
 import {
     FormLanding,
@@ -41,6 +41,8 @@ const Home = () => {
                     <IntroImage />
 
                     <FrequentlyAskedComponent />
+
+                    <ContactInfoComponent />
                 </div>
             </div >
         </section >

@@ -2,8 +2,8 @@ import { ContactInfoComponent } from "../components";
 
 const Contact = () => {
     return (
-        <div className="bg-white">
-            <div className="container mb-20 pb-20 grid grid-cols-1 lg:grid-cols-2 gap-y-14 lg:gap-5 items-center">
+        <div className="w-full bg-white">
+            <div className="container mb-20 mt-7 pt-3 pb-24">
                 <ContactInfoComponent />
             </div>
         </div>

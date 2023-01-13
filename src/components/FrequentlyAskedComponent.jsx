@@ -9,9 +9,7 @@ const FrequentlyAskedComponent = () => {
                 <LeftSectionFQA />
 
                 <RightSectionFQA />
-
             </div>
-            <ContactInfoComponent />
         </>
     )
 }
