@@ -1,4 +1,6 @@
-import { FormContact, LeftContact, LeftSectionFQA, RightSectionFQA } from "./home";
+import ContactInfoComponent from "./ContactInfoComponent";
+
+import { LeftSectionFQA, RightSectionFQA } from "./home";
 
 const FrequentlyAskedComponent = () => {
     return (
@@ -7,13 +9,9 @@ const FrequentlyAskedComponent = () => {
                 <LeftSectionFQA />
 
                 <RightSectionFQA />
-            </div>
 
-            <div className="mt-24 grid grid-cols-1 lg:grid-cols-2 gap-7 items-start">
-                <LeftContact />
-
-                <FormContact />
             </div>
+            <ContactInfoComponent />
         </>
     )
 }

@@ -10,4 +10,6 @@ export { default as PricingComponent } from "./PricingComponent";
 
 export { default as FrequentlyAskedComponent } from "./FrequentlyAskedComponent";
 
+export { default as ContactInfoComponent } from "./ContactInfoComponent";
+
 export { default as Copyright } from "./Copyright";
