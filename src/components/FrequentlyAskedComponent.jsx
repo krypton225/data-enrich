@@ -1,5 +1,3 @@
-import ContactInfoComponent from "./ContactInfoComponent";
-
 import { LeftSectionFQA, RightSectionFQA } from "./home";
 
 const FrequentlyAskedComponent = () => {
