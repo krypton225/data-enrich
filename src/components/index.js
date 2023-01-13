@@ -6,4 +6,6 @@ export { default as MainLogo } from "./MainLogo";
 
 export { default as ListItems } from "./ListItems";
 
+export { default as PricingComponent } from "./PricingComponent";
+
 export { default as Copyright } from "./Copyright";
